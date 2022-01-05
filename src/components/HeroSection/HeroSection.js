@@ -3,7 +3,6 @@ import heroVideo from "../assets/video/hero-video.mp4";
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Box from "@material-ui/core/Box";
-import Button from "@material-ui/core/Button";
 import "./HeroSection.css";
 
 const useStyles = makeStyles((theme) => ({

@@ -16,6 +16,11 @@ span {
   left: 0;
   position: absolute;
 }
+
+.logo:hover {
+  transform: scale(1.2);
+}
+
 /* FONTS */
 /* font-family: 'Alegreya', serif;
 font-family: 'Poppins', sans-serif; */
