@@ -1,23 +1,34 @@
-import "./Navbar.css"
-
+import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <div className="container-navbar">
-      <ul className="items-navbar">
-        <li>PROJECTS.</li> 
-        <li>CV.</li>
-        <li>CONTACT.</li>
+      <nav>
+        <span className="logo">
+          <Link to="/">sg</Link>
+        </span>
 
-        {/* <a href="#sectionId">Go to section</a>
-        <section id="sectionId">
-        //your code
-        </section> */}
-        {/* http://bytemuse.com/scrollIt.js/ */}
-
-      </ul>
+        <ul className="items-navbar">
+          <li>
+            <Link to="/projects">PROJECTS.</Link>
+          </li>
+          <li>CV.</li>
+          <li>CONTACT.</li>
+        </ul>
+      </nav>
     </div>
   );
 }
 
 export default Navbar;
+
+//  {/* <a href="#sectionId">Go to section</a>
+//     <section id="sectionId">
+//     //your code
+//     </section> */}
+//     {/* http://bytemuse.com/scrollIt.js/ */}
+//   {/* <a data-scroll-nav="1"></a> */}
+
+//             {/* <a data-scroll-nav="0">
+// </a> */}

@@ -30,7 +30,8 @@ const useStyles = makeStyles((theme) => ({
 function HeroSection() {
   const classes = useStyles();
   return (
-    <section className={classes.root}>
+
+    <section data-scroll-index='0' className={classes.root}>
       <ReactPlayer
         url={heroVideo}
         playing
@@ -48,11 +49,13 @@ function HeroSection() {
           alignItems="center"
           color="#fff"
         >
-          <div>
+          {/* <div>
+           
             <span className="logo">sg</span>
-          </div>
+
+          </div> */}
           <div className="typewriter">
-            <h1>Hello, I'm Simone</h1>
+            <h1>HELLO, I'M SIMONE</h1>
           </div>
           <div className="text-hero-page">
             <span>
@@ -68,7 +71,14 @@ function HeroSection() {
         </Box>
       </div>
     </section>
+
+
   );
 }
 
 export default HeroSection;
+
+
+// {/* <p class='bottom-link'>
+//           <a data-scroll-goto='0'>Back to top</a>
+//         </p> */}

@@ -29,14 +29,14 @@ font-family: 'Poppins', sans-serif; */
 .typewriter h1 {
     color: #fff;
     overflow: hidden; 
-    border-right: .15em solid hsl(261, 78%, 39%); 
+    border-right: .10em solid hsl(261, 78%, 39%); 
     white-space: nowrap; 
-    margin: 10px auto; 
+    margin: 1px auto; 
     letter-spacing: .05em; 
     animation: 
       typing 3.5s steps(30, end),
       blink-caret .5s step-end infinite;
-    padding: 20px;
+    padding: 10px;
   } 
   
   @keyframes typing {
@@ -77,12 +77,13 @@ font-family: 'Poppins', sans-serif; */
 
 @media (max-width: 600px) {
     h1 {
-        font-size:24px;
+        font-size:25px;
     }
 
     span {
         font-size:16px;
-        margin:7px;
+        margin: 7px;
+        
     }
 
     .typewriter h1 {
@@ -95,7 +96,8 @@ font-family: 'Poppins', sans-serif; */
         animation: 
           typing 3.5s steps(30, end),
           blink-caret .5s step-end infinite;
-        padding: 20px;
+        padding: 5px;
+        margin: 50px 0 30px 0;
       } 
       
       @keyframes typing {
