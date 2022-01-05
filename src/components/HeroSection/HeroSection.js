@@ -64,9 +64,9 @@ function HeroSection() {
             <span>
               I am passionate about technology and how it can be used to <strong>improve people's lives</strong>.
             </span>
-            <span>
+            {/* <span>
             I am a problem solver and love <strong>learning</strong> new technologies!
-            </span>
+            </span> */}
           </div>
         </Box>
       </div>

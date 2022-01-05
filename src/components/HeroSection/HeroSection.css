@@ -4,7 +4,7 @@ h1 {
 }
 
 span {
-    margin: 4px;
+    margin: 6px;
     font-family: 'Poppins', sans-serif;
     padding: 0 20px;
 }
@@ -31,7 +31,7 @@ font-family: 'Poppins', sans-serif; */
     overflow: hidden; 
     border-right: .10em solid hsl(261, 78%, 39%); 
     white-space: nowrap; 
-    margin: 1px auto; 
+    margin: 20px auto; 
     letter-spacing: .05em; 
     animation: 
       typing 3.5s steps(30, end),
