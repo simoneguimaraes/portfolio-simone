@@ -1,0 +1,17 @@
+.container-navbar ul {
+    list-style-type: none;
+}
+
+.items-navbar {
+    display: flex;
+    margin: 15px;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+}
+
+.items-navbar li {
+    margin: 5px 25px;
+    
+}

@@ -49,6 +49,9 @@ function HeroSection() {
           alignItems="center"
           color="#fff"
         >
+          <div>
+            <span className="logo">sg</span>
+          </div>
           <div className="typewriter">
             <h1>Hello, I'm Simone</h1>
           </div>

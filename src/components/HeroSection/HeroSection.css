@@ -9,6 +9,16 @@ span {
     padding: 0 20px;
 }
 
+.logo {
+  font-family: 'Alegreya', serif;
+  font-size: 30px;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+/* FONTS */
+/* font-family: 'Alegreya', serif;
+font-family: 'Poppins', sans-serif; */
 
 /* TYPEWRITER EFFECT */
 .typewriter h1 {
