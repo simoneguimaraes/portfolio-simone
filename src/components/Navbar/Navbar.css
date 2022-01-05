@@ -15,3 +15,33 @@
     margin: 5px 25px;
     
 }
+
+.items-navbar:hover {
+    cursor: pointer;
+    
+}
+
+li::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  li:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  li::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: hsl(334, 26%, 34%);
+    z-index: -1;
+    transition: transform .3s ease;
+  }
+  
+  li {
+    position: relative;
+  }
