@@ -52,6 +52,7 @@
 .cv-list-itens li {
     font-size: 20px;
     margin: 4px;
+    list-style-type: none;
 }
 
 .cv-container h1 {
