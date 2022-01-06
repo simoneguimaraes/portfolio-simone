@@ -71,3 +71,35 @@
     display: flex;
     justify-content: center;
 }
+
+
+@media (max-width: 600px) {
+    .border {
+        width: 285px;
+        border-bottom: #757575 .5px solid;
+    }  
+
+    .project-container {
+        padding: 90px 30px 30px 30px;
+        margin: 0;
+    }   
+    
+    .project-container h1 {
+        font-size: 28px;
+    }
+    .project-container h2 {
+        font-size: 20px;
+    }
+    .project-container p {
+        font-size: 17px;
+    }
+    
+    .project-container li {
+        font-size: 16px;
+    }
+ 
+    .logo {
+        margin: 15px 10px 0px 25px;
+      }
+
+}
