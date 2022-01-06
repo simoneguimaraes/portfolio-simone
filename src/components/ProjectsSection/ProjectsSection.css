@@ -65,6 +65,13 @@
     border-radius: 15px;
     padding: 10px 15px;
     margin: 10px 10px 60px 10px;
+    box-shadow: 0 0 5px 0 #4d4c4c;
+  }
+
+  .project-button:hover, .project-button:focus {
+    background-color: hsl(334, 26%, 24%);
+    color: black;
+    cursor: pointer;
   }
 
   .project-button-div {
