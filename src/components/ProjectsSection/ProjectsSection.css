@@ -24,8 +24,8 @@
     
 }
 
-.border {
-    width: 355px;
+.border-project {
+    width: 345px;
     border-bottom: #757575 .5px solid;
 }
 
@@ -64,7 +64,7 @@
     background-color: hsl(334, 26%, 34%);
     border-radius: 15px;
     padding: 10px 15px;
-    margin-top: 10px;
+    margin: 10px 10px 60px 10px;
   }
 
   .project-button-div {
@@ -77,7 +77,7 @@
   } */
 
 @media (max-width: 600px) {
-    .border {
+    .border-project {
         width: 285px;
         border-bottom: #757575 .5px solid;
     }  
