@@ -1,5 +1,5 @@
 .project-container {
-    background-color: #2d2d2d;
+    background-color: #2f2f2f;
     min-height: 90vh;
     min-width: 90vw;
     display: flex;
@@ -48,7 +48,7 @@
     margin: 0px 10px 10px 10px;
     font-size: 48px;
     color: hsl(334, 26%, 54%);
-  font-family: 'Alegreya', serif;
+  font-family: 'Rowdies', cursive;
 }
 
 .project-link {
