@@ -13,7 +13,9 @@ function Navbar() {
           <li>
             <Link to="/projects">PROJECTS.</Link>
           </li>
-          <li>CV.</li>
+          <li>
+            <Link to="/curriculum">CV.</Link>
+          </li>
           <li>
             <Link to="/contact">CONTACT.</Link>
           </li>
