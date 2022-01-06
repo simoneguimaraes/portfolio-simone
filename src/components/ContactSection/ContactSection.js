@@ -2,38 +2,36 @@ import "./ContactSection.css";
 
 function ContactSection() {
   return (
-    <div className="project-container">
-      <h1 className="project-title">CONTACT ME</h1>
-      <p>
-        Bloom is a full-stack aplication that tracks the daily use of medicinal
-        cannabidiol (CBD) by patients, gives this information for doctors to
-        promote future research and creates a community using forums and new
-        articles published.
-      </p>
-      <p>
-        MERN Full-Stack (MongoDB, ExpressJs, ReactJs, Node.js) Single Page
-        Application (SPA).
-      </p>
-      <h2 className="project-about">About this project</h2>
-      <div className="border"></div>
-      <ul className="project-list-itens">
-        <li>
-          The project was made from scratch, so I was responsible for end-to-end
-          development and deploy of the SPA.
-        </li>
-        <li>
-          Responsible for the modeling the database, creating routes, front-end,
-          back-end, UI, UX of this project.
-        </li>
-      </ul>
-      <div className="project-button-div">
-        <button className="project-button">
+    <div className="contact-container">
+      <h1 className="contact-title">CONTACT ME</h1>
+      <h2>Feel free to send me a message.</h2>
+        <p>Let's connect:</p>
+      <div className="contact-button-div">
+        <button className="contact-button">
           <a
-            className="project-link"
+            className="contact-link"
             href="https://github.com/simoneguimaraes/" target="_blank"
             rel="noreferrer"
           >
             Github
+          </a>
+        </button>
+        <button className="contact-button">
+          <a
+            className="contact-link"
+            href="https://www.linkedin.com/in/simone-guimaraes/" target="_blank"
+            rel="noreferrer"
+          >
+            Linkedin
+          </a>
+        </button>
+        <button className="contact-button">
+          <a
+            className="contact-link"
+            href="mailto:simoneguimaraes11@gmail.com" target="_blank"
+            rel="noreferrer"
+          >
+            E-mail
           </a>
         </button>
       </div>

@@ -41,11 +41,6 @@ function ProjectsSection() {
       <div className="border"></div>
       <ul className="project-list-itens">
         <li>JavaScript (ES6), ReactJs, NodeJs, HTML5 e CSS3;</li>
-        <li>
-          Responsive Web Design, Fundamentals of Object-oriented programming
-          based on JavaScript;
-        </li>
-        <li>Git + Github and Version control;</li>
         <li>Relational databased (MongoDB) and ODMs;</li>
         <li>
           Clean, modular and efficient code and develop well-tested applications
@@ -53,7 +48,12 @@ function ProjectsSection() {
         </li>
         <li>Integration of the 3rd party services (APIs);</li>
         <li>Servers and Hosting;</li>
-        <li>Agile tools and methodologies.</li>
+        <li>
+          Responsive Web Design, Fundamentals of Object-oriented programming
+          based on JavaScript;
+        </li>
+        <li>Git + Github and Version control;</li>
+        <li>Agile tools and methodologies, sprints.</li>
       </ul>
       <div className="project-button-div">
         <button className="project-button">
