@@ -4,7 +4,7 @@
     min-width: 90vw;
     display: flex;
     flex-direction: column;
-    padding: 120px 90px;
+    padding: 120px 120px 50px 120px;
 }
 
 * {
@@ -31,6 +31,7 @@
 
 .project-container p {
     color: #c4c1c1;
+    font-size: 22px;
 }
 
 .project-container li {
@@ -44,6 +45,29 @@
 
 .project-container h1 {
     display: flex;
-    margin: 10px;
-    font-size: 35px;
+    margin: 0px 10px 10px 10px;
+    font-size: 48px;
+    color: hsl(334, 26%, 54%);
+  font-family: 'Alegreya', serif;
+}
+
+.project-link {
+    color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .project-button {
+    width: fit-content;
+    background-color: hsl(334, 26%, 34%);
+    border-radius: 15px;
+    padding: 10px 15px;
+    margin-top: 10px;
+  }
+
+  .project-button-div {
+    display: flex;
+    justify-content: center;
 }

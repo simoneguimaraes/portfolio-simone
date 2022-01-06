@@ -14,11 +14,14 @@
 .items-navbar li {
     margin: 5px 25px;
     color: white;
+    
 }
 
 .items-navbar a {
   text-decoration: none;
   color: white;
+  font-weight: 300;
+  font-family: Poppins;
 }
 
 .items-navbar:hover {
