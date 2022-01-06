@@ -14,7 +14,9 @@ function Navbar() {
             <Link to="/projects">PROJECTS.</Link>
           </li>
           <li>CV.</li>
-          <li>CONTACT.</li>
+          <li>
+            <Link to="/contact">CONTACT.</Link>
+          </li>
         </ul>
       </nav>
     </div>

@@ -35,7 +35,7 @@
 }
 
 .project-container li {
-    color: #969494;
+    color: #afafaf;
 }
 
 .project-list-itens li {
@@ -72,6 +72,9 @@
     justify-content: center;
 }
 
+/* .items-navbar {
+    background: hsl(334, 26%, 34%);
+  } */
 
 @media (max-width: 600px) {
     .border {

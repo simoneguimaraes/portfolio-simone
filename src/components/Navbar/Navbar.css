@@ -18,25 +18,20 @@
 }
 
 .items-navbar a {
-  text-decoration: none;
   color: white;
   font-weight: 300;
   font-family: Poppins;
+  text-decoration: none;
 }
 
 .items-navbar:hover {
-    cursor: pointer;
-    
+    cursor: pointer;  
 }
 
 .items-navbar li::before {  
     transform: scaleX(0);
     transform-origin: bottom right;
-  }
-  
-  .items-navbar li:hover::before {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+
   }
   
   .items-navbar li::before {
@@ -48,9 +43,14 @@
     background: hsl(334, 26%, 34%);
     z-index: -1;
     transition: transform .3s ease;
+
+  }
+  .items-navbar li:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
   }
   
-  /* .items-navbar::after {
+  /* .items-navbar li:active {
     text-decoration: underline;
   } */
 

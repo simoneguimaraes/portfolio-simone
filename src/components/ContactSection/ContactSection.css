@@ -1,0 +1,12 @@
+.project-container {
+    background-color: #2f2f2f;
+    min-height: 90vh;
+    min-width: 90vw;
+    display: flex;
+    flex-direction: column;
+    padding: 120px 120px 50px 120px;
+}
+
+* {
+    box-sizing: border-box;
+}
