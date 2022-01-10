@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/portfolio-simone/static/css/main.996b3ec2.css",
+    "main.js": "/portfolio-simone/static/js/main.bb28f891.js",
+    "static/media/hero-video.mp4": "/portfolio-simone/static/media/hero-video.a6f5f0d19f510abf1704.mp4",
+    "index.html": "/portfolio-simone/index.html",
+    "main.996b3ec2.css.map": "/portfolio-simone/static/css/main.996b3ec2.css.map",
+    "main.bb28f891.js.map": "/portfolio-simone/static/js/main.bb28f891.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.996b3ec2.css",
+    "static/js/main.bb28f891.js"
+  ]
+}
