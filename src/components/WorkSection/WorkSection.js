@@ -24,9 +24,9 @@ function WorkSection() {
           doctors to promote future research and creates a community using
           forums and new articles published.
         </p>
-        <p>
+        <p className="description"><em>
           MERN Full-Stack (MongoDB, ExpressJs, ReactJs, Node.js) Single Page
-          Application (SPA).
+          Application (SPA).</em>
         </p>
         <h2 className="project-about">About this project</h2>
         <div className="border-project"></div>
@@ -91,10 +91,10 @@ function WorkSection() {
           lets you create and edit your profile, login, reserve and pay for your
           tickets.
         </p>
-        <p>
+        <p className="description"><em>
           ReactJS Front-end application that uses 3rd party services (APIs),
           such as Mongo Rest API, Google Flights API, Dollar conversion, Credit
-          Card Payment and QR Code.
+          Card Payment and QR Code.</em>
         </p>
         <h2 className="project-about">About this project</h2>
         <div className="border-project"></div>
@@ -166,7 +166,7 @@ function WorkSection() {
           Web Development Bootcamp. I have always enjoyed trivia games so it was
           a great and fun challenge to develop it.
         </p>
-        <p>Developed using JavaScript, pure CSS and HTML.</p>
+        <p className="description"><em>Developed using JavaScript, pure CSS and HTML.</em></p>
         <h2 className="project-about">About this project</h2>
         <div className="border-project"></div>
         <ul className="project-list-itens">

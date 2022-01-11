@@ -4,9 +4,17 @@ function ContactSection() {
   return (
     <div className="contact-container">
       <h1 className="contact-title">CONTACT ME</h1>
-      <h2>Feel free to send me a message.</h2>
-        <p>Let's connect:</p>
+      <p>Feel free to send me an e-mail and to connect with me:</p>
       <div className="contact-button-div">
+      <button className="contact-button">
+          <a
+            className="contact-link"
+            href="mailto:simoneguimaraes11@gmail.com" target="_blank"
+            rel="noreferrer"
+          >
+            E-mail
+          </a>
+        </button>
         <button className="contact-button">
           <a
             className="contact-link"
@@ -23,15 +31,6 @@ function ContactSection() {
             rel="noreferrer"
           >
             Linkedin
-          </a>
-        </button>
-        <button className="contact-button">
-          <a
-            className="contact-link"
-            href="mailto:simoneguimaraes11@gmail.com" target="_blank"
-            rel="noreferrer"
-          >
-            E-mail
           </a>
         </button>
       </div>
