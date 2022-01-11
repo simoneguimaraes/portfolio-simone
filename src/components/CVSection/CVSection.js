@@ -8,7 +8,7 @@ function CVSection() {
       <ul className="cv-list-itens">
         <li>Designed and coded in an Agile environment utilizing a test-driven development approach.</li> 
         <li>Professional strengths include problem-solving, communication and leadership.</li>
-        <li>Currently studying TypeScript and TDD.</li> 
+        <li>Currently studying TypeScript, NextJS, Redux and TDD.</li> 
       </ul>
       {/* </p> */}
       <h2 className="cv-tech">Technical Skills</h2>
