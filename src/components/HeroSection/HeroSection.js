@@ -49,11 +49,6 @@ function HeroSection() {
           alignItems="center"
           color="#fff"
         >
-          {/* <div>
-           
-            <span className="logo">sg</span>
-
-          </div> */}
           <div className="typewriter">
             <h1>HELLO, I'M SIMONE</h1>
           </div>
@@ -78,7 +73,3 @@ function HeroSection() {
 
 export default HeroSection;
 
-
-// {/* <p class='bottom-link'>
-//           <a data-scroll-goto='0'>Back to top</a>
-//         </p> */}
