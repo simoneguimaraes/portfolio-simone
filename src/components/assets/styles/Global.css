@@ -7,10 +7,10 @@ body {
   * {
     box-sizing: border-box;
   }
-  code {
+  /* code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
-  }
+  } */
   
   :root {
     --purple-app: hsl(261, 78%, 39%);

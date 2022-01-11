@@ -48,7 +48,8 @@
     margin: 0px 10px 10px 10px;
     font-size: 40px;
     color: hsl(0, 28%, 40%);
-  font-family: 'Rowdies', cursive;
+    font-family: 'Alegreya', serif;
+    font-weight: 700;
 }
 
 .contact-link {
