@@ -58,7 +58,17 @@ function CVSection() {
                 Bachelor of Business Administration
             </li>
         </ul>
-
+        <div className="cv-button-div">
+        <button className="cv-button">
+          <a
+            className="cv-link"
+            href="https://www.linkedin.com/in/simone-guimaraes/" target="_blank"
+            rel="noreferrer"
+          >
+            Visit Linkedin Profile
+          </a>
+        </button>
+        </div>
     </div>
   );
 }

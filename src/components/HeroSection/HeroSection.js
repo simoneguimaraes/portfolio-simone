@@ -59,7 +59,7 @@ function HeroSection() {
           </div>
           <div className="text-hero-page">
             <span>
-              I am a <strong>full-stack web developer</strong> with UI design experience.
+              I am a <strong>full-stack web developer</strong>.
             </span>
             <span>
               I am passionate about technology and how it can be used to <strong>improve people's lives</strong>.

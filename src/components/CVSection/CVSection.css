@@ -58,8 +58,8 @@
 .cv-container h1 {
     display: flex;
     margin: 0px 10px 10px 10px;
-    font-size: 48px;
-    color: hsl(334, 26%, 54%);
+    font-size: 40px;
+    color: hsl(0, 28%, 40%);
   font-family: 'Rowdies', cursive;
 }
 
@@ -73,7 +73,7 @@
 
   .cv-button {
     width: fit-content;
-    background-color: hsl(334, 26%, 34%);
+    background-color: hsl(0, 28%, 30%);
     border-radius: 15px;
     padding: 10px 15px;
     margin: 10px 10px 60px 10px;
@@ -81,7 +81,7 @@
   }
 
   .cv-button:hover, .cv-button:focus {
-    background-color: hsl(334, 26%, 24%);
+    background-color: hsl(0, 28%, 20%);
     color: black;
     cursor: pointer;
   }

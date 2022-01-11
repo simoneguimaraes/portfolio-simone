@@ -21,7 +21,7 @@
 .contact-container h2 {
     color: #d6d4d4;
     margin: 15px 0;
-    
+    font-size: 25px;
 }
 
 .border {
@@ -46,8 +46,8 @@
 .contact-container h1 {
     display: flex;
     margin: 0px 10px 10px 10px;
-    font-size: 48px;
-    color: hsl(334, 26%, 54%);
+    font-size: 40px;
+    color: hsl(0, 28%, 40%);
   font-family: 'Rowdies', cursive;
 }
 
@@ -61,7 +61,7 @@
 
   .contact-button {
     width: fit-content;
-    background-color: hsl(334, 26%, 34%);
+    background-color: hsl(0, 28%, 30%);
     border-radius: 15px;
     padding: 10px 15px;
     margin: 10px 10px 60px 10px;
@@ -69,7 +69,7 @@
   }
 
   .contact-button:hover, .contact-button:focus {
-    background-color: hsl(334, 26%, 24%);
+    background-color: hsl(0, 28%, 20%);
     color: black;
     cursor: pointer;
   }

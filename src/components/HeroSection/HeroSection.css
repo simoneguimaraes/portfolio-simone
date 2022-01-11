@@ -1,6 +1,6 @@
 .typewriter h1 {
     font-family: 'Rowdies', cursive;
-    font-size: 65px;
+    font-size: 55px;
 }
 
 .text-hero-page span {
@@ -51,7 +51,7 @@ font-family: 'Poppins', sans-serif; */
   
  @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: hsl(334, 26%, 34%) }
+    50% { border-color: hsl(0, 28%, 30%) }
   }
 
 .text-hero-page {
@@ -69,7 +69,7 @@ font-family: 'Poppins', sans-serif; */
 }
 
 .email a:hover {
-    color: hsl(334, 26%, 34%);
+    color: hsl(0, 28%, 30%);
 }
 
 @media (max-width: 800px) {
@@ -109,6 +109,6 @@ font-family: 'Poppins', sans-serif; */
       
      @keyframes blink-caret {
         from, to { border-color: transparent }
-        50% { border-color: hsl(334, 26%, 34%) }
+        50% { border-color: hsl(0, 28%, 30%) }
       }
 } 

@@ -11,7 +11,7 @@ function Navbar() {
 
         <ul className="items-navbar">
           <li>
-            <Link to="/projects">PROJECTS.</Link>
+            <Link to="/work">WORK.</Link>
           </li>
           <li>
             <Link to="/curriculum">CV.</Link>
