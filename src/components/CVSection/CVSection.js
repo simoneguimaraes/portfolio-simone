@@ -3,14 +3,19 @@ import "./CVSection.css";
 function CVSection() {
   return (
     <div className="cv-container">
-      <h1 className="cv-title">SOFTWARE DEVELOPER</h1>
-      <p className="cv-tech">Simone Guimaraes is a full-stack web developer, working with the MERN stack (MongoDB, ExpressJs, ReactJs, NodeJs).</p>
+      <h1 className="cv-title">FRONT END ENGINEER</h1>
+      {/* <p className="cv-tech"> */}
+      <ul className="cv-list-itens">
+        <li>Designed and coded in an Agile environment utilizing a test-driven development approach.</li> 
+        <li>Professional strengths include problem-solving, communication and leadership.</li>
+        <li>Currently studying TypeScript and TDD.</li> 
+      </ul>
+      {/* </p> */}
       <h2 className="cv-tech">Technical Skills</h2>
       <div className="border-cv"></div>
       <ul className="cv-list-itens">
         <li>
-          JavaScript (ES6), ReactJs, NodeJs, ExpressJS, Insomnia, Bootstrap 5,
-          Netflify, Heroku, npm, Git;
+          ReactJs, JavaScript (ES6), NodeJs, ExpressJS, Insomnia, Bootstrap, Git;
         </li>
         <li>Relational databased (MongoDB) and ODMs;</li>
         <li>
